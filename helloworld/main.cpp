@@ -35,9 +35,9 @@ bool process_guess(int rand_num, int guess) {
     }
 
     if (rand_num < guess)
-        cout << "Guess is smaller" << endl;
+        cout << "Guess is smaller" << endl << endl;
     else
-        cout << "Guess is bigger" << endl;
+        cout << "Guess is bigger" << endl << endl;
 
     return false;
 }
