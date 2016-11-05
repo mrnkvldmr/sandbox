@@ -56,7 +56,7 @@ int main() {
                 break;
         }
 
-    } while (!maybe_continue());
+    } while (maybe_continue());
 
     return 0;
 }
