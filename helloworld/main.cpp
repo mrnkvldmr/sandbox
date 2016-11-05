@@ -47,6 +47,7 @@ int main() {
         print_greating();
 
         int rand_num = random_number();
+        cout << rand_num << endl;
 
         while (true) {
             print_offer_input();
